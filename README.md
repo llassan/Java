@@ -65,3 +65,38 @@ It is a complete command to be executed. It can consist of one or more expressio
 
 **What are Keywords?**
 A keyword is a reserved word that has predefined meaning in Java Language.
+
+**What is an Expression?**
+An expression is a coding construct that evaluates to a single value.
+
+## Data Types:
+
+**_Primitive Data Types (8):_**
+
+These are built-in, simple, and not objects. Stored directly in memory.
+
+
+| Data Type | Size     | Default Value | Example              | Range                       |
+|-----------|----------|---------------|----------------------|-----------------------------|
+| byte      | 8-bit    | 0             | `byte a = 100;`      | -128 to 127                 |
+| short     | 16-bit   | 0             | `short s = 1000;`    | -32,768 to 32,767           |
+| int       | 32-bit   | 0             | `int x = 50000;`     | -2^31 to 2^31 - 1           |
+| long      | 64-bit   | 0L            | `long l = 100000L;`  | -2^63 to 2^63 - 1           |
+| float     | 32-bit   | 0.0f          | `float f = 5.75f;`   | ~7 decimal digits precision |
+| double    | 64-bit   | 0.0d          | `double d = 19.99;`  | ~15 decimal digits precision|
+| char      | 16-bit   | '\u0000'      | `char c = 'A';`      | 0 to 65,535 (Unicode)       |
+| boolean   | 1 bit*   | false         | `boolean flag = true;` | true / false              |
+
+> *Note: `boolean` size is JVM-dependent, but logically treated as 1 bit.
+
+---
+
+**_Non-Primitive (Reference) Data Types(5):_**
+
+| Data Type | Example |
+|-----------|---------|
+| String    | `String name = "Java";` |
+| Array     | `int[] arr = {1, 2, 3};` |
+| Class     | `class Student { ... }` |
+| Interface | `interface Shape { ... }` |
+| Enum      | `enum Level { LOW, MEDIUM, HIGH }` |
