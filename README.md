@@ -60,3 +60,8 @@ JRE = for users (just run).
 
 JVM = the core engine that makes Java portable.
 
+**What is Statement?**
+It is a complete command to be executed. It can consist of one or more expressions.
+
+**What are Keywords?**
+A keyword is a reserved word that has predefined meaning in Java Language.
