@@ -1,7 +1,8 @@
 # Java
 
 Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems in the mid-1990s (now owned by Oracle).
-1. JDK (Java Development Kit)
+
+**1. JDK (Java Development Kit)**
 
 It’s the full toolkit for developers.
 
@@ -15,7 +16,7 @@ Tools like debuggers, profilers, and documentation generators.
 
 Without JDK, you can’t develop Java apps — only run them.
 
-2. JRE (Java Runtime Environment)
+**2. JRE (Java Runtime Environment)**
 
 It’s the package to run Java applications.
 
@@ -27,7 +28,7 @@ Core Java libraries (collections, networking, IO, etc.).
 
 End users who only need to run Java programs (not write them) just need JRE.
 
-3. JVM (Java Virtual Machine)
+**3. JVM (Java Virtual Machine)**
 
 The engine that makes Java platform-independent.
 
@@ -41,7 +42,7 @@ Just-In-Time (JIT) compilation for faster execution.
 
 Security checks (sandboxing for untrusted code).
 
-Flow of Execution
+***Flow of Execution***
 
 You write Java code → MyApp.java.
 
