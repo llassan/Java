@@ -73,7 +73,7 @@ An expression is a coding construct that evaluates to a single value.
 
 **_Primitive Data Types (8):_**
 
-These are built-in, simple, and not objects. Stored directly in memory.
+These are the most basic data types built into Java. THey store simple values, not objects. Stored directly in stack memory.
 
 
 | Data Type | Size     | Default Value | Example              | Range                       |
@@ -93,10 +93,12 @@ These are built-in, simple, and not objects. Stored directly in memory.
 
 **_Non-Primitive (Reference) Data Types(5):_**
 
+These are objects that store references to memory locations.
+
 | Data Type | Example |
 |-----------|---------|
 | String    | `String name = "Java";` |
 | Array     | `int[] arr = {1, 2, 3};` |
 | Class     | `class Student { ... }` |
 | Interface | `interface Shape { ... }` |
-| Enum      | `enum Level { LOW, MEDIUM, HIGH }` |
+| Object      | `new Object()` |
