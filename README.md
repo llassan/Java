@@ -83,12 +83,12 @@ These are the most basic data types built into Java. THey store simple values, n
 | Data Type | Size     | Default Value | Example              | Range                       |
 |-----------|----------|---------------|----------------------|-----------------------------|
 | byte      | 8-bit    | 0             | `byte a = 100;`      | -128 to 127                 |
-| short     | 16-bit   | 0             | `short s = 1000;`    | -32,768 to 32,767           |
-| int       | 32-bit   | 0             | `int x = 50000;`     | -2^31 to 2^31 - 1           |
-| long      | 64-bit   | 0L            | `long l = 100000L;`  | -2^63 to 2^63 - 1           |
-| float     | 32-bit   | 0.0f          | `float f = 5.75f;`   | ~7 decimal digits precision |
-| double    | 64-bit   | 0.0d          | `double d = 19.99;`  | ~15 decimal digits precision|
-| char      | 16-bit   | '\u0000'      | `char c = 'A';`      | 0 to 65,535 (Unicode)       |
+| short     | 2-byte   | 0             | `short s = 1000;`    | -32,768 to 32,767           |
+| int       | 4-byte   | 0             | `int x = 50000;`     | -2^31 to 2^31 - 1           |
+| long      | 8-byte   | 0L            | `long l = 100000L;`  | -2^63 to 2^63 - 1           |
+| float     | 4-byte   | 0.0f          | `float f = 5.75f;`   | ~7 decimal digits precision |
+| double    | 8-byte   | 0.0d          | `double d = 19.99;`  | ~15 decimal digits precision|
+| char      | 2-byte   | '\u0000'      | `char c = 'A';`      | 0 to 65,535 (Unicode)       |
 | boolean   | 1 bit*   | false         | `boolean flag = true;` | true / false              |
 
 > *Note: `boolean` size is JVM-dependent, but logically treated as 1 bit.
