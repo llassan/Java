@@ -71,6 +71,10 @@ An expression is a coding construct that evaluates to a single value.
 
 ## Data Types:
 
+Data: Data is any 'information' that a program stores or processes.
+
+A data type defines _what type of data_ a variable can store, _what operations_ can be performed on that data, _how much memory_ it will use
+
 **_Primitive Data Types (8):_**
 
 These are the most basic data types built into Java. THey store simple values, not objects. Stored directly in stack memory.
