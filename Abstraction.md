@@ -1,0 +1,1 @@
+# An Object showing different states during different stages of its life is known as Abstraction.
